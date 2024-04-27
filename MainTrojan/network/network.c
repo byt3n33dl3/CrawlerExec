@@ -9,6 +9,10 @@
 
 #define PORT 8080
 
+void c_function(const char*) {
+    printf("C Function: %s\n",Transmit.exe);
+}
+
 int setup_server_socket() {
     int server_fd;
     struct sockaddr_in address;
